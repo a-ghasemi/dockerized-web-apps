@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  www:
+    image: nginx:latest
+    ports:
+      - 8000:80
+    volumes:
+      - ./site.conf:/etc/nginx/conf.d/site.conf
+      - ./app:/app
+    depends_on:
+      - phpfpm
+  
+  phpfpm:
+    image: bitnami/php-fpm:latest
+    volumes:
+      - ./app:/app
+

@@ -1,0 +1,19 @@
+version: '3.9'
+services:
+  www:
+    image: "nginx:latest"
+    volumes:
+      # - ./app:/app
+      - ./site.conf:/etc/nginx/conf.d/site.conf
+    ports:
+      - "8000:80"
+    depends_on:
+      - "py3"
+
+
+  py3:
+    build: .
+    image: my/python:3.11
+    volumes:
+      - ./app:/app    
+
