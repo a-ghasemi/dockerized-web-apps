@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  www:
+    image: "httpd:latest"
+    volumes:
+      - ../app:/app
+      - ./site.conf:/usr/local/apache2/conf-enabled/site.conf
+    ports:
+      - "6002:80"
