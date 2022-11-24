@@ -3,7 +3,7 @@ services:
   www:
     image: "nginx:latest"
     volumes:
-      - ./app:/app
+      - ../app:/app
       - ./site.conf:/etc/nginx/conf.d/site.conf
     ports:
-      - "8000:80"
+      - "6001:80"
