@@ -13,7 +13,7 @@ services:
       - www_tier
     depends_on:
       - phpfpm
-      - db
+      - mariadb
   
   phpfpm:
     image: bitnami/php-fpm:latest
@@ -25,10 +25,10 @@ services:
       - db_tier
       - www_tier
 
-  db:
+  mariadb:
     image: bitnami/mariadb:latest
     volumes:
-      - ./db:/bitnami/mariadb
+      - ./data:/bitnami/mariadb/data
     #      - /configs/db.cnf:/opt/bitnami/mariadb/conf/my_custom.cnf:ro
     restart: always
     env_file:
@@ -52,3 +52,4 @@ networks:
     driver: bridge
   db_tier:
     driver: bridge
+
