@@ -16,3 +16,8 @@ services:
     volumes:
       - ./lara_root:/app
 
+  composer:
+    image: composer:latest
+    volumes:
+      - ./lara_root:/app
+
