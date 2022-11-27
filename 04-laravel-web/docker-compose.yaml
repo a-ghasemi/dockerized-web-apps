@@ -7,12 +7,12 @@ services:
 #      - ${HTTPS_PORT:-443}:443
     volumes:
       - ./site.conf:/etc/nginx/conf.d/site.conf
-      - ./lara_root:/www
+      - ./lara_root:/app
     depends_on:
       - phpfpm
   
   phpfpm:
     image: bitnami/php-fpm:latest
     volumes:
-      - ./lara_root:/www
+      - ./lara_root:/app
 
