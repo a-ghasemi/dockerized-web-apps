@@ -2,22 +2,53 @@ version: '3.9'
 services:
   www:
     image: nginx:latest
+    restart: always
     ports:
       - ${HTTP_PORT:-80}:80
 #      - ${HTTPS_PORT:-443}:443
     volumes:
-      - ./site.conf:/etc/nginx/conf.d/site.conf
+      - ./configs/site.conf:/etc/nginx/conf.d/site.conf
       - ./lara_root:/app
+    networks:
+      - www_tier
     depends_on:
       - phpfpm
+      - db
   
   phpfpm:
     image: bitnami/php-fpm:latest
+    restart: always
     volumes:
       - ./lara_root:/app
+    networks:
+      - php_tier
+      - db_tier
+      - www_tier
+
+  db:
+    image: bitnami/mariadb:latest
+    volumes:
+      - ./db:/bitnami/mariadb
+    #      - /configs/db.cnf:/opt/bitnami/mariadb/conf/my_custom.cnf:ro
+    restart: always
+    env_file:
+      - ./configs/db.env
+    networks:
+      - db_tier
 
   composer:
     image: composer:latest
     volumes:
       - ./lara_root:/app
+    depends_on:
+      - phpfpm
+    networks:
+      - php_tier
 
+networks:
+  www_tier:
+    driver: bridge
+  php_tier:
+    driver: bridge
+  db_tier:
+    driver: bridge
