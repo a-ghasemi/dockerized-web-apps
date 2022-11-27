@@ -1,0 +1,24 @@
+version: '3.9'
+services:
+  apache2:
+    build:
+      context: .
+      dockerfile: ./apache2.Dockerfile
+    image: "apache-proxy:2.4.54"
+    volumes:
+      - ./app:/app
+      - ./site.conf:/etc/apache2/sites-available/000-default.conf
+    ports:
+      - "8000:80"
+    depends_on:
+      - "py3"
+
+
+  py3:
+    build:
+      context: .
+      dockerfile: ./python.Dockerfile
+    image: my/python:3.11
+    volumes:
+      - ./app:/app    
+

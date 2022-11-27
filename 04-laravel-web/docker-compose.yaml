@@ -1,0 +1,18 @@
+version: '3.9'
+services:
+  www:
+    image: nginx:latest
+    ports:
+      - ${HTTP_PORT:-80}:80
+#      - ${HTTPS_PORT:-443}:443
+    volumes:
+      - ./site.conf:/etc/nginx/conf.d/site.conf
+      - ./lara_root:/www
+    depends_on:
+      - phpfpm
+  
+  phpfpm:
+    image: bitnami/php-fpm:latest
+    volumes:
+      - ./lara_root:/www
+

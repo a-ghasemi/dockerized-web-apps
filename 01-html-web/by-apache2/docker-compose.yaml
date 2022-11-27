@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  www:
+    build:
+      context: .
+      dockerfile: httpd.dockerfile
+    image: "my-apache2:latest"
+    volumes:
+      - ../app:/var/www/html/app
+      - ./site.conf:/etc/apache2/sites-enabled/site.conf
+    ports:
+      - "8003:80"
