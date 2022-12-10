@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  pma:
+    image: phpmyadmin
+    links: 
+      - mariadb:db
+    ports:
+      - 8080:80
+
+networks:
+  default:
+    name: wordpress-app_db_tier
+    external: true
