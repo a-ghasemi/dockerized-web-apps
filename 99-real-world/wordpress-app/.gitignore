@@ -1,0 +1,4 @@
+data/*
+logs
+wp_root/*
+!wp_root/README.md

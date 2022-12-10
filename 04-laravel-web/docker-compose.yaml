@@ -11,6 +11,7 @@ services:
       - ./lara_root:/app
     networks:
       - www_tier
+      - db_tier
     depends_on:
       - phpfpm
       - mariadb
