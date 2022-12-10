@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker compose exec phpfpm php artisan $1
+docker compose exec phpfpm php artisan $@

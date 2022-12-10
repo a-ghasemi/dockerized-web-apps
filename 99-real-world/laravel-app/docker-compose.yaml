@@ -7,8 +7,9 @@ services:
       - ${HTTP_PORT:-80}:80
 #      - ${HTTPS_PORT:-443}:443
     volumes:
-      - ./configs/site.conf:/etc/nginx/conf.d/site.conf
+      - ./configs/site.conf:/etc/nginx/conf.d/default.conf
       - ./lara_root:/app
+      - ./logs:/var/log/nginx
     networks:
       - www_tier
     depends_on:
@@ -16,7 +17,10 @@ services:
       - mariadb
   
   phpfpm:
-    image: bitnami/php-fpm:latest
+#    image: bitnami/php-fpm:latest
+    build:
+      context: ./dockerfiles
+      dockerfile: phpfpm.dockerfile
     restart: always
     volumes:
       - ./lara_root:/app
@@ -35,6 +39,18 @@ services:
       - ./configs/db.env
     networks:
       - db_tier
+
+  redis:
+    image: bitnami/redis:latest
+    environment:
+#      - ALLOW_EMPTY_PASSWORD=yes
+      - REDIS_IO_THREADS=4
+      - REDIS_IO_THREADS_DO_READS=yes
+      - REDIS_PASSWORD=loo3Aith@i
+#    volumes:
+#      - ./redis:/bitnami/redis/data
+    networks:
+      - php_tier
 
   composer:
     image: composer:latest
