@@ -1,0 +1,462 @@
+repo_name: a-ghasemi/dockerized-web-apps
+report_id: f63b763853b20f43f21d0e3f41a8b441
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-29T13:59:46+00:00'
+requested_by: datarivers-prog
+provider: github
+branch: master
+detected_tools_count: 35
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps
+  detection_source: Repo Metadata
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/composer.json
+  detection_source: 04-laravel-web/lara_root/composer.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: Laravel
+  description: A PHP Framework For Web Artisans
+  website_url: http://laravel.com/
+  version: 9.41.0
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/composer.lock
+  detection_source: 04-laravel-web/lara_root/composer.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/11-networking/docker-compose.yaml
+  detection_source: 11-networking/docker-compose.yaml
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-10-21 12:21:54.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/package.json
+  detection_source: 04-laravel-web/lara_root/package.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: Compose
+  description: 'We host databases for busy devs: production-ready, cloud-hosted, open
+    source.'
+  website_url: https://www.compose.io/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: MongoDB Hosting
+  image_url: https://img.stackshare.io/service/201/reB72Lh4.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/docker-compose.yaml
+  detection_source: 04-laravel-web/docker-compose.yaml
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:13:59.000000000 Z
+- name: DB
+  description: 'Version control for databases: save, restore, and archive snapshots
+    of your database from the command line'
+  website_url: https://github.com/infostreams/db
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/11593/no-img.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/docker-compose.yaml
+  detection_source: 04-laravel-web/docker-compose.yaml
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: MariaDB
+  description: An enhanced, drop-in replacement for MySQL
+  website_url: https://mariadb.com/
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1615/mariadb-logo-400x400.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/docker-compose.yaml
+  detection_source: 04-laravel-web/docker-compose.yaml
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 17:14:18.000000000 Z
+- name: PHP-FPM
+  description: " An alternative FastCGI daemon for PHP"
+  website_url: http://php-fpm.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Background Processing
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/02-pure-php-web/docker-compose.yaml
+  detection_source: 02-pure-php-web/docker-compose.yaml
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-10-18 20:34:28.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/99-real-world/laravel-app/docker-compose.yaml
+  detection_source: 99-real-world/laravel-app/docker-compose.yaml
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-12-10 18:22:44.000000000 Z
+- name: Apache HTTP Server
+  description: Open-source HTTP server for modern operating systems including UNIX
+    and Windows
+  website_url: https://httpd.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1051/default_9e444e0d6cc9f4f55f1b86979900673af4de46aa.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/01-html-web/by-apache2/docker-compose.yaml
+  detection_source: 01-html-web/by-apache2/docker-compose.yaml
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: Composer
+  description: Dependency Manager for PHP
+  website_url: https://getcomposer.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/1688/New_Project__65_.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/docker-compose.yaml
+  detection_source: 04-laravel-web/docker-compose.yaml
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:13:59.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps
+  detection_source: Repo Metadata
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/01-html-web/by-nginx/docker-compose.yaml
+  detection_source: 01-html-web/by-nginx/docker-compose.yaml
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-13 21:07:29.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 9.5.26
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/composer.lock
+  detection_source: 04-laravel-web/lara_root/composer.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/03-python-web/by-apache2/requirements.txt
+  detection_source: 03-python-web/by-apache2/requirements.txt
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-10-19 20:49:13.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/package.json
+  detection_source: 04-laravel-web/lara_root/package.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/package.json
+  detection_source: 04-laravel-web/lara_root/package.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: phpMyAdmin
+  description: A free software, for MySQL and MariaDB
+  website_url: https://www.phpmyadmin.net/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/2102/3pl3dljQ_400x400.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/99-real-world/laravel-app/pma/docker-compose.yml
+  detection_source: 99-real-world/laravel-app/pma/docker-compose.yml
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-12-10 18:22:44.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/11-networking/docker-compose.yaml
+  detection_source: 11-networking/docker-compose.yaml
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-10-21 12:21:54.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.19
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/package.json
+  detection_source: 04-laravel-web/lara_root/package.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps
+  detection_source: Repo Metadata
+- name: WordPress
+  description: A semantic personal publishing platform with a focus on aesthetics,
+    web standards, and usability.
+  website_url: http://wordpress.org
+  open_source: true
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Self-Hosted Blogging / CMS
+  image_url: https://img.stackshare.io/service/250/logo.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/99-real-world/wordpress-app/pma/docker-compose.yml
+  detection_source: 99-real-world/wordpress-app/pma/docker-compose.yml
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-12-10 18:29:08.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/package.json
+  detection_source: 04-laravel-web/lara_root/package.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: 7.5.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/composer.lock
+  detection_source: 04-laravel-web/lara_root/composer.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: laravel/framework
+  description: The Laravel Framework
+  package_url: https://packagist.org/laravel/framework
+  version: 9.41.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/composer.lock
+  detection_source: 04-laravel-web/lara_root/composer.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: laravel/tinker
+  description: Powerful REPL for the Laravel framework
+  package_url: https://packagist.org/laravel/tinker
+  version: 2.7.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/composer.lock
+  detection_source: 04-laravel-web/lara_root/composer.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: mockery/mockery
+  description: Mockery is a simple yet flexible PHP mock object framework
+  package_url: https://packagist.org/mockery/mockery
+  version: 1.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/composer.lock
+  detection_source: 04-laravel-web/lara_root/composer.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: nunomaduro/collision
+  description: Cli error handling for console/command-line PHP applications
+  package_url: https://packagist.org/nunomaduro/collision
+  version: 6.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/composer.lock
+  detection_source: 04-laravel-web/lara_root/composer.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 9.5.26
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/composer.lock
+  detection_source: 04-laravel-web/lara_root/composer.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/04-laravel-web/lara_root/package.json
+  detection_source: 04-laravel-web/lara_root/package.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-11-27 15:05:25.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 3.2.8
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  version: '2.2'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/a-ghasemi/dockerized-web-apps/blob/master/03-python-web/by-apache2/requirements.txt
+  detection_source: 03-python-web/by-apache2/requirements.txt
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2022-10-19 20:49:13.000000000 Z
