@@ -3,30 +3,30 @@
 ## Tech Stack
 a-ghasemi/dockerized-web-apps is built on the following main stack:
 
-- [Compose](https://www.compose.io/) – MongoDB Hosting
-- [WordPress](http://wordpress.org) – Self-Hosted Blogging / CMS
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [PHP](http://www.php.net/) – Languages
-- [Laravel](http://laravel.com/) – Frameworks (Full Stack)
 - [Python](https://www.python.org) – Languages
+- [Guzzle](http://guzzlephp.org/) – Microframeworks (Backend)
+- [Laravel](http://laravel.com/) – Frameworks (Full Stack)
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
+- [Compose](https://www.compose.io/) – MongoDB Hosting
+- [DB](https://github.com/infostreams/db) – Database Tools
+- [MariaDB](https://mariadb.com/) – Databases
+- [PHP-FPM](http://php-fpm.org/) – Background Processing
 - [Redis](http://redis.io/) – In-Memory Databases
 - [Apache HTTP Server](https://httpd.apache.org/) – Web Servers
-- [NGINX](http://nginx.org) – Web Servers
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [MariaDB](https://mariadb.com/) – Databases
-- [PHPUnit](https://phpunit.de/) – Testing Frameworks
 - [Composer](https://getcomposer.org/) – Package Managers
-- [phpMyAdmin](https://www.phpmyadmin.net/) – Performance Monitoring
-- [Guzzle](http://guzzlephp.org/) – Microframeworks (Backend)
-- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
-- [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
-- [PHP-FPM](http://php-fpm.org/) – Background Processing
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
-- [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
-- [DB](https://github.com/infostreams/db) – Database Tools
-- [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [NGINX](http://nginx.org) – Web Servers
+- [PHPUnit](https://phpunit.de/) – Testing Frameworks
+- [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- [phpMyAdmin](https://www.phpmyadmin.net/) – Performance Monitoring
+- [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [WordPress](http://wordpress.org) – Self-Hosted Blogging / CMS
+- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -36,30 +36,30 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 a-ghasemi/dockerized-web-apps is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/201/reB72Lh4.png' alt='Compose'/> [Compose](https://www.compose.io/) – MongoDB Hosting
-- <img width='25' height='25' src='https://img.stackshare.io/service/250/logo.png' alt='WordPress'/> [WordPress](http://wordpress.org) – Self-Hosted Blogging / CMS
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg' alt='PHP'/> [PHP](http://www.php.net/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg' alt='Laravel'/> [Laravel](http://laravel.com/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/2350/638632.png' alt='Guzzle'/> [Guzzle](http://guzzlephp.org/) – Microframeworks (Backend)
+- <img width='25' height='25' src='https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg' alt='Laravel'/> [Laravel](http://laravel.com/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/3339/rlFcjEdI.png' alt='PostCSS'/> [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/201/reB72Lh4.png' alt='Compose'/> [Compose](https://www.compose.io/) – MongoDB Hosting
+- <img width='25' height='25' src='https://img.stackshare.io/service/11593/no-img.png' alt='DB'/> [DB](https://github.com/infostreams/db) – Database Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/1615/mariadb-logo-400x400.png' alt='MariaDB'/> [MariaDB](https://mariadb.com/) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='PHP-FPM'/> [PHP-FPM](http://php-fpm.org/) – Background Processing
 - <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/1051/default_9e444e0d6cc9f4f55f1b86979900673af4de46aa.png' alt='Apache HTTP Server'/> [Apache HTTP Server](https://httpd.apache.org/) – Web Servers
-- <img width='25' height='25' src='https://img.stackshare.io/service/1052/YMxUfyWf.png' alt='NGINX'/> [NGINX](http://nginx.org) – Web Servers
-- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1615/mariadb-logo-400x400.png' alt='MariaDB'/> [MariaDB](https://mariadb.com/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg' alt='PHPUnit'/> [PHPUnit](https://phpunit.de/) – Testing Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/1688/New_Project__65_.png' alt='Composer'/> [Composer](https://getcomposer.org/) – Package Managers
-- <img width='25' height='25' src='https://img.stackshare.io/service/2102/3pl3dljQ_400x400.png' alt='phpMyAdmin'/> [phpMyAdmin](https://www.phpmyadmin.net/) – Performance Monitoring
-- <img width='25' height='25' src='https://img.stackshare.io/service/2350/638632.png' alt='Guzzle'/> [Guzzle](http://guzzlephp.org/) – Microframeworks (Backend)
-- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/3339/rlFcjEdI.png' alt='PostCSS'/> [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='PHP-FPM'/> [PHP-FPM](http://php-fpm.org/) – Background Processing
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/6429/alpine_linux.png' alt='Alpine Linux'/> [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
-- <img width='25' height='25' src='https://img.stackshare.io/service/11593/no-img.png' alt='DB'/> [DB](https://github.com/infostreams/db) – Database Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/1052/YMxUfyWf.png' alt='NGINX'/> [NGINX](http://nginx.org) – Web Servers
+- <img width='25' height='25' src='https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg' alt='PHPUnit'/> [PHPUnit](https://phpunit.de/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/2102/3pl3dljQ_400x400.png' alt='phpMyAdmin'/> [phpMyAdmin](https://www.phpmyadmin.net/) – Performance Monitoring
+- <img width='25' height='25' src='https://img.stackshare.io/service/6429/alpine_linux.png' alt='Alpine Linux'/> [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/250/logo.png' alt='WordPress'/> [WordPress](http://wordpress.org) – Self-Hosted Blogging / CMS
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -70,7 +70,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [a-ghasemi/dockerized-web-apps](https://github.com/a-ghasemi/dockerized-web-apps)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|35<br/>Tools used|01/29/24 <br/>Report generated|
+|35<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
