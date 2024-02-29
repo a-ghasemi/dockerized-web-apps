@@ -2,7 +2,7 @@ repo_name: a-ghasemi/dockerized-web-apps
 report_id: f63b763853b20f43f21d0e3f41a8b441
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-29T13:59:46+00:00'
+timestamp: '2024-02-29T19:39:44+00:00'
 requested_by: datarivers-prog
 provider: github
 branch: master
@@ -135,7 +135,7 @@ tools:
   last_updated_by: Armin Ghasemi
   last_updated_on: 2022-11-27 17:14:18.000000000 Z
 - name: PHP-FPM
-  description: " An alternative FastCGI daemon for PHP"
+  description: An alternative FastCGI daemon for PHP
   website_url: http://php-fpm.org/
   open_source: false
   hosted_saas: false
